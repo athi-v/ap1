@@ -12,7 +12,7 @@ res.json(posts);
 
 app.get('/', function(req, res)
 {
-res.send('API is running');
+res.sendFile(__dirname + '/index.html');
 });
 
 
